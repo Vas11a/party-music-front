@@ -25,7 +25,7 @@ body{
 .main-song-block {
   width: 100%;
   border-radius: 10px;
-  padding: 10px 30px;
+  padding: 15px 30px;
   background: rgb(252,86,80);
   background: linear-gradient(90deg, rgba(252,86,80,1) 0%, rgba(143,81,252,1) 100%);
 }
@@ -40,10 +40,10 @@ body{
 
 .name {
   font-weight: bold;
+  font-size: 20px;
 }
 
 .time {
-  font-size: 13px;
   font-weight: bold;
   color: #B9B6B6;
 }
@@ -57,12 +57,12 @@ body{
 }
 
 .restart-img{
-  height: 20px;
+  height: 23px;
   width: auto;
 }
 
 .next-img{
-  height: 20px;
+  height: 23px;
   width: auto;
 }
 
@@ -102,6 +102,7 @@ body{
   padding-top: 20px;
   text-align: center;
   font-size: 20px;
+  font-size: 25px;
 }
 
 .change-vol-block{
@@ -115,7 +116,7 @@ body{
 }
 
 .change-vol-block>img{
-  height: 20px;
+  height: 23px;
   width: auto;
   margin-top: 2px;
   cursor: pointer;
@@ -127,7 +128,7 @@ body{
   width: 80%;
   margin: 0 auto;
   margin-top: 20px;
-  max-height: 200px;
+  max-height: 250px;
   overflow: auto;
   padding: 2px;
 }
@@ -136,7 +137,7 @@ body{
   width: 100%;
   margin-top: 10px;
   border-radius: 8px;
-  padding: 10px;
+  padding: 15px;
   background-color: #FF5757;
   display: flex;
   justify-content: space-between;
@@ -146,7 +147,7 @@ body{
 
 .song-name{
   font-weight: bold;
-  font-size: 14px;
+  font-size: 18px;
 }
 
 .buttons{
@@ -157,20 +158,20 @@ body{
 
 .up{
   transform: rotate(90deg);
-  height: 20px;
+  height: 23px;
   width: auto;
   cursor: pointer;
 }
 
 .down{
   transform: rotate(-90deg);
-  height: 20px;
+  height: 23px;
   width: auto;
   cursor: pointer;
 }
 
 .remove{
-  height: 20px;
+  height: 23px;
   width: auto;
   cursor: pointer;
 }
@@ -202,7 +203,7 @@ body{
 .find-song-title{
   padding-top: 20px;
   text-align: center;
-  font-size: 20px;
+  font-size: 25px;
   
 }
 
@@ -212,6 +213,7 @@ body{
   border: 2px solid black;
   border-radius: 5px 5px 0 0;
   padding: 2px 3px;
+  font-size: 22px;
 }
 
 .input-text:focus{
@@ -222,7 +224,7 @@ body{
   width: 100%;
   background-color: white;
   border-radius: 0 0 5px 5px;
-  max-height: 120px;
+  max-height: 150px;
   overflow: auto;
 }
 
@@ -232,14 +234,15 @@ body{
   
   align-items: center;
   padding: 5px;
+  padding-top: 10px;
 }
 
 .found-song-name{
   font-weight: bold;
-  font-size: 14px;
+  font-size: 18px;
 }
 
 .img-found-song{
-  width: 15px;
+  width: 20px;
   height: auto;
 }

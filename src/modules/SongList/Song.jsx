@@ -5,10 +5,10 @@ import remove from '../../imgs/remove.png'
 export default function Song() {
     return (
         <div className="song">
-            <div className="song-name">Song Name</div>
+            <div className="song-name">Song Name Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab, quos?</div>
             <div className="buttons">
-                <img src={arr} alt="" className='up' />
-                <img src={arr} alt="" className='down' />
+                {/* <img src={arr} alt="" className='up' />
+                <img src={arr} alt="" className='down' /> */}
                 <img src={remove} alt="" className='remove' />
             </div>
         </div>

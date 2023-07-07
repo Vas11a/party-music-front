@@ -1,6 +1,7 @@
 import React from 'react'
 import plus from '../../imgs/plus.png'
 import download from '../../imgs/download.png'
+import arr from '../../imgs/arr.png'
 
 export default function FindSong() {
   return (
@@ -19,7 +20,11 @@ export default function FindSong() {
             </div>
             <div className="found-song">
                 <div className="found-song-name">Song Name</div>
-                <img src={plus} alt="+" className='img-found-song' />
+                <div className="block-add-song">
+                  <img src={arr} alt="^" className='img-add-song img-add-song-start' />
+                  <img src={arr} alt="v" className='img-add-song img-add-song-end' />
+                </div>
+                
             </div>
             <div className="found-song">
                 <div className="found-song-name">Song Name</div>

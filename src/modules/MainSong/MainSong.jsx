@@ -2,6 +2,8 @@ import React from 'react'
 import next from '../../imgs/next.png'
 import restart from '../../imgs/reload.png'
 import Slider from '../../components/Slider'
+import play from '../../imgs/play.png'
+import pause from '../../imgs/pause.png'
 
 export default function MainSong() {
 
@@ -17,6 +19,7 @@ export default function MainSong() {
                 <div className="name">Song name</div>
                 <div className="time">3.25</div>
             </div>
+            <img src={play} className='play-pause' alt=">" />
             <div className="controll-main">
                 <div className="restart">
                     <img src={restart} className='restart-img' alt="R" />

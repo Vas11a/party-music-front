@@ -228,6 +228,16 @@ body{
   overflow: auto;
 }
 
+.play-pause{
+  display: block;
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: -15px;
+  cursor: pointer;
+  width: 30px;
+  height: auto;
+}
+
 .found-song{
   display: flex;
   justify-content: space-between;
@@ -244,5 +254,43 @@ body{
 
 .img-found-song{
   width: 20px;
+  height: auto;
+}
+
+.img-add-song{
+  width: 25px;
+  height: auto;
+  cursor: pointer;
+}
+
+.img-add-song-end{
+  transform: rotate(-90deg);
+}
+
+.img-add-song-start{
+  transform: rotate(90deg);
+}
+
+.block-add-song{
+  display: flex;
+  gap: 8px;
+}
+
+.block-menu-opener{
+  margin: 0 auto;
+  width: 50%;
+  min-width: 200px;
+  display: flex;
+  justify-content: center;
+  padding: 8px;
+  border: 5px solid #BBBBBB;
+  border-radius: 15px;
+  margin-top: 25px;
+  margin-bottom: -5px;
+  cursor: pointer;
+}
+
+.img-menu-opener{
+  width: 40px;
   height: auto;
 }
